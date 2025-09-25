@@ -1,0 +1,17 @@
+path: /home/jupyter/datasphere/datasets
+
+# Пути к папкам с изображениями для обучения, валидации и теста
+train: 
+- dataset-uav-fire/images/train
+- fire_smoke_dataset/images/train
+val:   
+- dataset-uav-fire/images/val
+- fire_smoke_dataset/images/val
+test:  
+- dataset-uav-fire/images/test
+- fire_smoke_dataset/images/test
+
+# Словарь имён классов: индекс → название
+names:
+  0: 'smoke'
+  1: 'fire'
